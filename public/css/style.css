@@ -1,0 +1,96 @@
+body {
+    margin: 0rem;
+    padding: 0rem;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Navigation Bar CSS */
+  
+  .navbar {
+    display: flex;
+    background-color: #00000017;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    align-items: center;
+  }
+  .navigation {
+    display: flex;
+    margin: 0rem;
+    margin-top: 5px;
+    padding-left: 0rem;
+  }
+  .navigation li {
+    list-style: none;
+    margin: 2px 6px;
+    padding: 5px 10px;
+  }
+  .navigation a {
+    text-decoration: none;
+    font-family: Poppins;
+    color: white;
+  }
+  .navigation a:hover {
+    border: 1px solid white;
+    padding: 5px 1px;
+    border-radius: 5px;
+  }
+  
+  /* Salaam Section CSS */
+  
+  .Salaam-Section::before {
+    content: "";
+    position: absolute;top: 0px;
+    height: 100%;
+    width: 100%;
+    background: url(https://images.pexels.com/photos/2233416/pexels-photo-2233416.jpeg?auto=compress&cs=tinysrgb), no-repeat center center/cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    z-index: -1;
+    opacity: 0.8;
+  }
+  .Salaam-Section {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 663px;
+  }
+  .Salaam-Section h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 100;
+  }
+  .Salaam-Section p {
+    text-align: center;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 600;
+  }
+  .Salaam-Section a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+    border: 1px solid blue;
+    font-family: Lexend Mega;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    margin: 0rem;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(128 128 128 / 33%);
+    border: 1px solid gray;
+    border-radius: 6px;
+  }
+  .Salaam-Section a:hover {
+    background-color: blue;
+    transition-property: all;
+    transition-duration: 1.5s;
+  }
